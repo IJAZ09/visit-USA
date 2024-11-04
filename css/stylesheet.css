@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:40px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.content h1{
+    font-size: 160px;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    
+}
+.content{
+    text-align: center;
+
+}
+.content{ 
+    font-size: 160px;
+    color: white;
+    font-weight: 600;
+}
+.content a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+.nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:40px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(243, 18, 18);
+    font-size: 17px;
+}
+.nav:hover{
+        -webkit-text-stroke: 2px rgb(28, 18, 223);
+        color: transparent;
+}
+.aksam{
+   color: blue;
+   font-size: 50px;
+}
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+}
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+    
+}
+.form-container input, .form-container textarea, .form-container button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-container button {
+    background-color: #3c00c9be;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #00e5ff;
+}
+.flex{
+    display: flex;            
+    flex-direction: row;     
+    justify-content: left;  
+}
+
+.hawaii{
+    background-color: green;
+}
+.clear{
+    background-color: greenyellow;
+}
+.zuma{
+    background-color: gold;
+}
+.south{
+    background-color: blueviolet;
+}
+.diego{
+    background-color: violet;
+}
+.albama{
+    background-color: purple;
+}
+.jersey{
+    background-color: rgb(255, 60, 0);
+}
+h2 {
+    display: inline;             
+    background-color: green;    
+              
+}
+
+   
+
+
+.container{
+    overflow: hidden;
+}
+.ijazx{
+    float: left; 
+    color: rgb(58, 9, 220);
+    font-weight: bold;
+}
+
+.right{
+    float: right; 
+    width: 700px;            
+    height: 6000px; 
+    width: 700px;            
+    height: 500px; 
+    margin-left: 300px;
+    border-radius: 20px;
+    border: 3px solid rgb(21, 0, 255);  
+
+}
+.happy{
+    float: right; 
+    color: rgb(230, 21, 181);
+    font-style: oblique;
+    
+}
+
+.rig{
+    float: left;   
+    width: 700px;            
+    height: 500px; 
+    margin-right: 300px;
+    border-radius: 20px;
+    border: 2px solid red;
+    
+}
+.love{
+    float: left; 
+    font-weight: bold;
+}
+
+.ko{
+    float: right;   
+    width: 700px;            
+    height: 6000px; 
+    width: 700px;            
+    height: 500px; 
+    margin-left: 300px;
+    border-radius: 20px;
+    border: 3px solid rgb(21, 0, 255);
+}
+.ahsan{
+    float: right; 
+    font-style: oblique;
+}
+
+.lop{
+    float: left;   
+    width: 700px;            
+    height: 500px; 
+    margin-right: 300px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+
+
+.bod {
+    background-color:white
+    
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+
+section h2 {
+    font-size: 1.8em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+
+
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    color: #666;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+
+
+    .placing {
+        position: relative;
+        width: 100%; 
+        height: 40vh; 
+        background-size: cover; 
+        background-position: center;
+        color: white;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; 
+        margin: 0; 
+    }
+    #nyc {
+        height: 700px;
+        background-image: url(../images/new\ york\ city\ skyline.jpg);
+    }
+    
+    #los-angeles {
+        height: 700px;
+        background-image: url(../images/la.jpg);
+    
+    #chicago {
+        height: 1000px;
+        color: rgb(11, 3, 3);
+        background-image: url(../images/chicago.jpg); 
+    }
+    #park{
+        height: 1000px;
+        color: white;
+        background-image: url(../images/yellowstone\ park.jpg);
+    }
+    #grand{
+        height: 1000px;
+        color: rgb(8, 1, 1);
+        background-image: url(../images/grand.jpg);
+    }
+    .expenses-body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #f7f7f7;
+    }
+    
+    
+    .yass {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color:white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .title {
+        text-align: center;
+        color: #8e0707;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+
+    
+    
+
+
+
+
+
+
+
+    
